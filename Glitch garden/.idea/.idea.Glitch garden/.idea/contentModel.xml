@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\UnityProj\Glitch-garden\Glitch garden" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Attacker.cs" t="Include" />
+          <e p="AttackerSpawner.cs" t="Include" />
+          <e p="Defender.cs" t="Include" />
+          <e p="DefenderButton.cs" t="Include" />
+          <e p="DefenderSpawner.cs" t="Include" />
+          <e p="Health.cs" t="Include" />
+          <e p="LevelLoader.cs" t="Include" />
+          <e p="Projectile.cs" t="Include" />
+          <e p="Shooter.cs" t="Include" />
+          <e p="StarDisplay.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Glitch garden.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\Salty\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Salty\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Glitch garden.-1209081344.00" t="ExcludeRecursive" />
+  </component>
+</project>

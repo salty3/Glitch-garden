@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffc1b2d8-7c9a-422e-b09b-2deb0e58adbe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Attack.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Attack.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Idle.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus Idle.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Cactus/Cactus.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Jump.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Jump.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Walk.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Walk.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Walk.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Trophy/Trophy Bounce.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Trophy/Trophy Bounce.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cactus.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lizard.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Lizard.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Lizard.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trophy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trophy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Defender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Defender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/star.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fqYNgmtmGKPVSWbiVRChuxSiav" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597010648579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597010648579" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1597011297195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597011297195" />
+  </component>
+</project>

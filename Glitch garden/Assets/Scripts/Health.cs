@@ -6,7 +6,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private int health = 100;
-    [SerializeField] private ParticleSystem deathVFX;
+    [SerializeField] private GameObject deathVFX;
 
     public void DealDamage(int damage)
     {
@@ -26,6 +26,6 @@ public class Health : MonoBehaviour
     private void TriggerDeathVFX()
     {
         var vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
-        Destroy(vfx, 1f);
+        Destroy(vfx, 0.3f);
     }
 }

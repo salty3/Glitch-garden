@@ -8,6 +8,7 @@ public class DefenderSpawner : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (!defender) return;
         SpawnDefender(GetSquareClicked());
     }
 
