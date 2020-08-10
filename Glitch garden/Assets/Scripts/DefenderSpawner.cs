@@ -1,10 +1,17 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
     private Defender defender;
+    private StarDisplay starDisplay;
+
+    private void Start()
+    {
+        starDisplay = FindObjectOfType<StarDisplay>();
+    }
 
     private void OnMouseDown()
     {
@@ -28,6 +35,8 @@ public class DefenderSpawner : MonoBehaviour
 
     private void SpawnDefender(Vector2 spawnPos)
     {
+        if (!starDisplay.HaveEnoughStars(defender.GetStarCost())) return;
+        starDisplay.SpendStars(defender.GetStarCost());
         var newDefender = Instantiate(defender, spawnPos, Quaternion.identity);
     }
 

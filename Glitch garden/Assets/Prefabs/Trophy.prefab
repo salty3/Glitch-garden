@@ -231,7 +231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48954d4f1c635ba47a41d250e0235c83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starCost: 100
+  starCost: 50
   offset: {x: 0, y: -0.35}
 --- !u!1 &4212409421571180361
 GameObject:

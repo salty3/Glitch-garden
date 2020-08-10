@@ -9,6 +9,10 @@ public class Defender : MonoBehaviour
 
     public Vector2 GetOffset() { return offset; }
 
+    public int GetStarCost()
+    {
+        return starCost;
+    }
     public void AddStars(int amount)
     {
         FindObjectOfType<StarDisplay>().AddStars(amount);
