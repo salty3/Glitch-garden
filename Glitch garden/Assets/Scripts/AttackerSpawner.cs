@@ -8,8 +8,8 @@ public class AttackerSpawner : MonoBehaviour
     [SerializeField] private Attacker enemy;
     [SerializeField] private float minSpawnDelay = 1f;
     [SerializeField] private float maxSpawnDelay = 5f;
-
-    bool spawn = true;
+    [SerializeField] private bool spawn = true;
+    
     IEnumerator Start()
     {
         while (spawn)

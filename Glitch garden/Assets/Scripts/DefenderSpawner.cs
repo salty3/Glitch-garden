@@ -28,8 +28,8 @@ public class DefenderSpawner : MonoBehaviour
 
     private Vector2 SnapToGrid(Vector2 worldPos)
     {
-        float newX = Mathf.Round(worldPos.x) + defender.GetOffset().x;
-        float newY = Mathf.Round(worldPos.y) + defender.GetOffset().y;
+        float newX = Mathf.Round(worldPos.x);
+        float newY = Mathf.Round(worldPos.y);
         return new Vector2(newX, newY);
     }
 
