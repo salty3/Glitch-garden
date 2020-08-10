@@ -2,15 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class AttackerSpawner : MonoBehaviour
 {
-    [SerializeField] private Attacker enemy;
+    [SerializeField] private Attacker[] enemies;
     [SerializeField] private float minSpawnDelay = 1f;
     [SerializeField] private float maxSpawnDelay = 5f;
     [SerializeField] private bool spawn = true;
-    
-    IEnumerator Start()
+
+    private IEnumerator Start()
     {
         while (spawn)
         {
@@ -21,7 +22,12 @@ public class AttackerSpawner : MonoBehaviour
 
     private void SpawnAttacker()
     {
-        Attacker newAttacker = Instantiate(enemy, transform.position, Quaternion.identity);
+        Spawn(Random.Range(0, enemies.Length));
+    }
+
+    private void Spawn(int enemyIndex)
+    {
+        Attacker newAttacker = Instantiate(enemies[enemyIndex], transform.position, Quaternion.identity);
         newAttacker.transform.parent = transform;
     }
 }

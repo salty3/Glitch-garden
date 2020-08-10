@@ -149,4 +149,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   rotationSpeed: -1
-  damage: 50
+  damage: 200

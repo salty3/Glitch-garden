@@ -43,6 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6d4740dffa2d6429f50ef5d75f5d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 8693315715221704736, guid: f725ce3db69d3bb459c554fc9e9a00cf, type: 3}
+  enemies:
+  - {fileID: 7185596201805704072, guid: 3c6b28c4881dc17488c8dc5ee401261d, type: 3}
+  - {fileID: 7185596201805704072, guid: f725ce3db69d3bb459c554fc9e9a00cf, type: 3}
   minSpawnDelay: 1
-  maxSpawnDelay: 1
+  maxSpawnDelay: 5
+  spawn: 1

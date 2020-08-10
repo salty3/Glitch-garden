@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5717724243110182430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalPosition: {x: -0.042, y: 0.178, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7185596201805704073}
@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 1476596655243152346}
   - component: {fileID: 7185596201805704072}
   - component: {fileID: 9214898470573893045}
+  - component: {fileID: 998641734027570072}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -172,7 +173,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5309267, y: -0.05455506}
+  m_Offset: {x: -0.11369276, y: -0.13603127}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -183,7 +184,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.46749973, y: 0.68844104}
+  m_Size: {x: 0.7927933, y: 0.47733998}
   m_EdgeRadius: 0
 --- !u!114 &7185596201805704072
 MonoBehaviour:
@@ -211,3 +212,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+--- !u!114 &998641734027570072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7185596201805704076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8fe06682ec4cf43a94a7e0e3e367ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

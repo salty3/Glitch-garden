@@ -21,28 +21,21 @@
   <component name="ChangeListManager">
     <list default="true" id="ffc1b2d8-7c9a-422e-b09b-2deb0e58adbe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch garden/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch garden/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch garden/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch garden/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Glitch garden/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Glitch garden/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Walk.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard Walk.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Lizard/Lizard.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Attackers/Lizard.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Attackers/Lizard.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Cactus.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Cactus.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fox/Fox Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fox/Fox Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fox/Fox Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fox/Fox Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fox/Fox Running.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fox/Fox Running.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fox/Fox.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fox/Fox.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Gnome/Gnome Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Gnome/Gnome Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Attackers/Fox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Attackers/Fox.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Gnome.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Gnome.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Trophy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Trophy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Core/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Core/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Gravestone.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Defenders/Gravestone.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Game Core/EnemySpawner.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Game Core/EnemySpawner.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Axe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Projectiles/Axe.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Eating.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Eating.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Jump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Jump.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Running.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Running.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Walking.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Fox Walking.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Gravestone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Gravestone.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Spritesheets/Lizard/Lizard Attacking.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Spritesheets/Lizard/Lizard Attacking.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,10 +51,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2E6610ED-2984-4F85-A379-24F81509FE5D/72/f8f595e9/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Attacker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Lizard.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,12 +64,13 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StarDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shooter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Lizard.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Attacker.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Lizard.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AttackerSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fox.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +86,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -131,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597027397078" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1597092025914">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1597102071226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597092025914" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597102071226" />
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1597089934073">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,10 +143,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597089861515" />
-    <state x="638" y="119" width="644" height="801" key="find.popup" timestamp="1597090043243">
+    <state x="638" y="119" width="644" height="801" key="find.popup" timestamp="1597101732770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="638" y="119" width="644" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597090043243" />
+    <state x="638" y="119" width="644" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597101732770" />
     <state x="616" y="173" width="672" height="676" key="search.everywhere.popup" timestamp="1597089955093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
