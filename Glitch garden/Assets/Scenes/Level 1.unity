@@ -660,7 +660,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2110728860
 Transform:
   m_ObjectHideFlags: 0
@@ -806,6 +806,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Star_text
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832213123563331758, guid: a931fdf83cd07844bb339313887e1724,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832213123563331758, guid: a931fdf83cd07844bb339313887e1724,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4832213123563331758, guid: a931fdf83cd07844bb339313887e1724,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745491318886729261, guid: a931fdf83cd07844bb339313887e1724,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745491318886729261, guid: a931fdf83cd07844bb339313887e1724,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.33333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5745491318886729261, guid: a931fdf83cd07844bb339313887e1724,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.33333334
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a931fdf83cd07844bb339313887e1724, type: 3}

@@ -6,8 +6,8 @@ public class Attacker : MonoBehaviour
 {
     [SerializeField] private int starValue = 100;
     private float currentSpeed = 0f;
-    
-    void Update()
+
+    private void Update()
     {
         transform.Translate(Vector2.left * (currentSpeed * Time.deltaTime));
     }

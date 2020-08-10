@@ -19,13 +19,9 @@ public class AttackerSpawner : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        
-    }
-
     private void SpawnAttacker()
     {
-        Instantiate(enemy, transform.position, Quaternion.identity);
+        Attacker newAttacker = Instantiate(enemy, transform.position, Quaternion.identity);
+        newAttacker.transform.parent = transform;
     }
 }
