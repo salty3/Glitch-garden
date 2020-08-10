@@ -71,13 +71,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: -1128813155181456575, guid: e0a8930d735495945be7606f315c8ba8,
+  m_Sprite: {fileID: 1150964161710832084, guid: 79c41e3ab19e4ee40a4e572b2cf54a89,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.83, y: 0.88}
+  m_Size: {x: 1.53, y: 1.39}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -97,9 +97,8 @@ GameObject:
   - component: {fileID: 1476596655243152346}
   - component: {fileID: 7185596201805704072}
   - component: {fileID: 9214898470573893045}
-  - component: {fileID: 4503315996625050167}
   m_Layer: 0
-  m_Name: Lizard
+  m_Name: Fox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,7 +129,7 @@ Animator:
   m_GameObject: {fileID: 7185596201805704076}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8e0f81ad11fca35498aa0bc3f8bd96a9, type: 2}
+  m_Controller: {fileID: 9100000, guid: e8c4aad02f201984c8018b7f13ac2f24, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -198,7 +197,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c6a7e7ec8e51e418bee05163e23631, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starValue: 100
 --- !u!114 &9214898470573893045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,15 +211,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   deathVFX: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
---- !u!114 &4503315996625050167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7185596201805704076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 086cf625f410fdd438d13a22ee6b1080, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

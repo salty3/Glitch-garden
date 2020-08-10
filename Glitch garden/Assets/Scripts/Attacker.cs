@@ -1,11 +1,21 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Attacker : MonoBehaviour
 {
-    [SerializeField] private int starValue = 100;
+    //[SerializeField] private int starValue = 100;
+    
     private float currentSpeed = 0f;
+    private GameObject currentTarget;
+    private Animator animator;
+
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -15,5 +25,26 @@ public class Attacker : MonoBehaviour
     public void SetMovementSpeed(float speed)
     {
         currentSpeed = speed;
+    }
+
+    public void Attack(GameObject target)
+    {
+        animator.SetBool("isAttacking", true);
+        currentTarget = target;
+    }
+
+    public void StrikeCurrentTarget(int damage)
+    {
+        if (!currentTarget)
+        {
+            animator.SetBool("isAttacking", false);
+            return;
+        }
+        
+        var health = currentTarget.GetComponent<Health>();
+        if (health)
+        {
+            health.DealDamage(damage);
+        }
     }
 }
