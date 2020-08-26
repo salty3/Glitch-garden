@@ -8,12 +8,12 @@ public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] private int health = 100;
 
-    private LevelLoader levelLoader;
+    private LevelController levelController;
     private Text healthText;
     
     private void Start()
     {
-        levelLoader = FindObjectOfType<LevelLoader>();
+        levelController = FindObjectOfType<LevelController>();
         healthText = GetComponent<Text>();
         UpdateDisplay();
     }
@@ -28,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
         health -= amount;
         if (health <= 0)
         {
-            levelLoader.LoadGameOver();
+            levelController.Lose();
         }
         UpdateDisplay();
     }
