@@ -17,5 +17,12 @@ public class Base : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         playerHealth.DecreaseHealth(healthDecrease);
+        Destroy(other.gameObject);
+    }
+
+    public int HealthDecrease
+    {
+        get => healthDecrease;
+        set => healthDecrease = value >= 1 ? value : 1;
     }
 }

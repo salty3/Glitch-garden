@@ -33,4 +33,16 @@ public class AttackerSpawner : MonoBehaviour
         Attacker newAttacker = Instantiate(enemies[enemyIndex], transform.position, Quaternion.identity);
         newAttacker.transform.parent = transform;
     }
+
+    public float MinSpawnDelay
+    {
+        get => minSpawnDelay;
+        set => minSpawnDelay = value >= 0f ? value : 1f;
+    }
+    
+    public float MaxSpawnDelay
+    {
+        get => maxSpawnDelay;
+        set => maxSpawnDelay = value >= 0f ? value : 1f;
+    }
 }

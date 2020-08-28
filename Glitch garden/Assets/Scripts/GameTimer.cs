@@ -28,5 +28,10 @@ public class GameTimer : MonoBehaviour
          levelFinished = true;
       }
    }
-   
+
+   public float LevelTime
+   {
+      get => levelTime;
+      set => levelTime = value > 0 ? value : 1f;
+   }
 }

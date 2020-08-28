@@ -11,13 +11,17 @@
           <e p="Defender.cs" t="Include" />
           <e p="DefenderButton.cs" t="Include" />
           <e p="DefenderSpawner.cs" t="Include" />
+          <e p="DifficultyController.cs" t="Include" />
           <e p="Fox.cs" t="Include" />
           <e p="GameTimer.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="LevelController.cs" t="Include" />
           <e p="LevelLoader.cs" t="Include" />
           <e p="Lizard.cs" t="Include" />
+          <e p="MusicPlayer.cs" t="Include" />
+          <e p="OptionsController.cs" t="Include" />
           <e p="PlayerHealth.cs" t="Include" />
+          <e p="PlayerPrefsController.cs" t="Include" />
           <e p="Projectile.cs" t="Include" />
           <e p="Shooter.cs" t="Include" />
           <e p="StarDisplay.cs" t="Include" />

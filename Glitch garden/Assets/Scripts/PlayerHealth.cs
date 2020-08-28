@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -31,5 +32,11 @@ public class PlayerHealth : MonoBehaviour
             levelController.Lose();
         }
         UpdateDisplay();
+    }
+
+    public int Health
+    {
+        get => health;
+        set => health = value >= 1 ? value : 1;
     }
 }
