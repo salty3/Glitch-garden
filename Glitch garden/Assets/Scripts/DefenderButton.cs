@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DefenderButton : MonoBehaviour
 {
@@ -12,6 +13,13 @@ public class DefenderButton : MonoBehaviour
     {
         buttons = FindObjectsOfType<DefenderButton>();
         defenderSpawner = FindObjectOfType<DefenderSpawner>();
+        LabelButtonWithCost();
+    }
+
+    private void LabelButtonWithCost()
+    {
+        Text costText = GetComponentInChildren<Text>();
+        costText.text = defenderPrefab.GetStarCost().ToString();
     }
 
     private void OnMouseDown()
